@@ -21,7 +21,7 @@ while vidaMago >=0 and MonstroVida >=0:
             print(f"Mana insuficiente! Tens {ManaMago} de Mana!!")
     elif opcao==2:
         if ManaMago>10:
-            mechanics.usarpocao(vidaMago)
+            vidaMago=mechanics.usarpocao(vidaMago)
             print(f"Mago usa pocao! Mago recupera 15 de hp! Vida: {vidaMago}")
         else:
             print(f"Mana insuficiente! Tens {ManaMago} de Mana!!")
@@ -38,6 +38,7 @@ while vidaMago >=0 and MonstroVida >=0:
         print("MAGO GANHOU A BATALHAAAAAAAAAAAAAAAAA yay")
     if vidaMago<0:
         print("Mago perdeu ToT")
+
 
 
 
