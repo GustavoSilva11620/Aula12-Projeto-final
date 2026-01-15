@@ -6,7 +6,7 @@ vidaMago=50
 ManaMago=30
 MonstroVida=60
 mechanics.menu_combate()
-while vidaMago >=0 or MonstroVida >=0:
+while vidaMago >=0 and MonstroVida >=0:
     opcao=int(input())
     if opcao==1:
         if ManaMago>5:
@@ -38,5 +38,6 @@ while vidaMago >=0 or MonstroVida >=0:
         print("MAGO GANHOU A BATALHAAAAAAAAAAAAAAAAA yay")
     if vidaMago<0:
         print("Mago perdeu ToT")
+
 
 
